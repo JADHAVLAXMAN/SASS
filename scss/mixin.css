@@ -1,0 +1,26 @@
+.tes1t {
+  color: red;
+  border: 2px solid red;
+  padding: 20px;
+}
+
+.demo {
+  color: red;
+  border: 2px solid red;
+  padding: 20px;
+  -webkit-box-shadow: 2px 2px 2px red;
+          box-shadow: 2px 2px 2px red;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.jumbo {
+  padding: 100px;
+  margin: 5px;
+}
+
+.xx {
+  padding: 50px;
+  margin: 1000px;
+}
+/*# sourceMappingURL=mixin.css.map */

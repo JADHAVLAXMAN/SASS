@@ -1,0 +1,30 @@
+@mixin redBox {
+  color: red;
+  border: 2px solid red;
+  padding: 20px;
+}
+@mixin fancyBox {
+  box-shadow: 2px 2px 2px red;
+  border-radius: 50%;
+}
+
+.tes1t {
+  @include redBox;
+}
+.demo {
+  @include redBox;
+  @include fancyBox;
+  background-color: yellow;
+}
+
+@mixin awsBox($p, $m: 5px) {
+  padding: $p;
+  margin: $m;
+}
+
+.jumbo {
+  @include awsBox(100px);
+}
+.xx {
+  @include awsBox(50px, 1000px);
+}

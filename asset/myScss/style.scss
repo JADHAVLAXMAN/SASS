@@ -1,0 +1,16 @@
+@import "variables";
+
+@mixin Box($h, $w, $bg) {
+  height: $h;
+  width: $w;
+  background-color: $bg;
+}
+
+.main {
+  color: $text-danger;
+  @include Box(100px, 100px, $text-primary);
+}
+.demo {
+  color: $text-primary;
+  @include Box(200px, 200px, $text-danger);
+}

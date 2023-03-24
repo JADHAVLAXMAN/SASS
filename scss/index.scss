@@ -1,0 +1,28 @@
+h1 {
+  color: red;
+  font-size: 36px;
+}
+
+//Nesting
+
+div {
+  h1 {
+    color: pink;
+    span {
+      color: blue;
+    }
+  }
+  h2 {
+    color: yellow;
+    span {
+      color: green;
+    }
+  }
+}
+
+//Variable
+
+$theme: red;
+.main {
+  color: $theme;
+}
